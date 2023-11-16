@@ -33,7 +33,7 @@
                                     <label for="nama_mobil">Nama Mobil</label>
                                 </div>
                                 <div class="form-floating mb-3">
-                                    <input type="string" class="form-control" name="brand_mobil" id="brand_mobil" value="<?php echo $value['brand_mobil']; ?>" placeholder="Tampilkan data brand_mobil disini"disabled>
+                                    <input type="string" class="form-control" name="brand_mobil" id="brand_mobil" value="<?php echo $value['brand_mobil']; ?>" placeholder="<?php echo $value['brand_mobil']; ?>"disabled>
                                     <label for="brand_mobil">Brand Mobil</label>
                                 </div>
                                 <div class="form-floating mb-3">
